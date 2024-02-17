@@ -1,0 +1,10 @@
+name: WorldReset
+author: Boulldogo
+version: 1.0
+description: Permet de reset un monde minecraft.
+main: fr.Boulldogo.WorldReset.Main
+commands : 
+    reset:
+       description: Permet de reset le monde ( Console only )
+    cancelreset:
+       description: Permet d'arrêter le reset en cours ( Console only )

@@ -1,0 +1,21 @@
+version: 1.0
+
+#In this configuration, use %s for define the time before action (usable in reset_message and restart_message)
+#Prefix of the plugin
+prefix: "&7[&cWorldReset&7] "
+#Define if you want to use prefix
+use_prefix : true
+#Define the time before resetting the map (in seconds)
+reset_time: 20
+#Define message broadcasted in tchat when regen is working. This message is sent on the command is executed, on the middle of the time and on the quarter of the time.
+reset_message: "&cLa map du serveur va être reset dans %s secondes. Tout les joueurs non OP vont être exclus."
+#Message display when player is kicking by the plugin
+kick_message: "&cTout les joueurs ont étés exclus du serveur suite au reset de la map."
+#Define the maximum of worlds backups allowed. Note : If you set this value to 0, per default, one backup will be created.
+max_backups: 2
+#Set the time before after players kick before the server restarts. You are advised to take a long time, because it is during this period that the world is deleted and saved.
+time_to_restart: 5
+#Define the restart message before automatic restarting.
+restart_message: "&cLe serveur redémarre dans %s secondes afin de regénérer une nouvelle map."
+#Define the message sent when the reset is cancelled.
+cancel_message: "&cLa régénération lancée plus tôt a été annulée."
