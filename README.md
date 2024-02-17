@@ -5,6 +5,7 @@
 ## Commands : 
 
 **/reset > Reset you'r currantly world**
+
 **/cancelreset > Allow you to cancel the current reset.**
 
 ## Permission: 
